@@ -1,48 +1,62 @@
-# Fallacy Detector Agent
+# 🛡️ Fallacy Detector Skill for CLI Agents
 
-A specialized agent for identifying, analyzing, and explaining logical fallacies in any text, powered by a structured knowledge base of fallacies.
+> *Either the government passes the capital punishment law, or the country will fall into chaos!*
 
-## Features
+Next time a partisan blogger flashes a False Dilemma like that, your agent is going to catch it and expose it.
 
-- **Automated Fallacy Detection:** Scans text to identify structural and reasoning errors.
-- **Obsidian Vault Integration:** Dynamically loads logical fallacy definitions from local Markdown files.
-- **Evidence-Based Analysis:** Uses a confidence-scoring system to minimize false positives.
-- **Charitable Repair:** Provides "steelman" versions of arguments and repair suggestions.
-- **Structured Output:** Generates machine-readable JSON or human-readable Markdown reports.
-- **Neutrality & Rigor:** Strictly differentiates between rhetoric and genuine fallacies.
+How? With this powerful, introspective skill designed for CLI-based AI agents (like Claude Code, Gemini CLI, or OpenCode) to detect, analyze, and "repair" logical fallacies in text.
+---
 
-## Quick Start
+## ✨ Key Capabilities
+
+- **🧠 Deep Vault Integration:** Automatically parses your local Obsidian vault (`Logical_Fallacies_Vault/`) to leverage your own curated definitions of fallacies.
+- **🔍 Precision Analysis:** Uses a structural/reasoning error detection model rather than keyword matching.
+- **🛡️ Intellectual Integrity:** Biased against false positives; treats "charitable reading" (steelmanning) as a mandatory first step.
+- **🔧 Automated Repairs:** Not only flags errors but provides reconstructed, sound versions of arguments.
+- **📊 Structured Reporting:** Generates high-fidelity JSON or Markdown reports perfect for automated workflows.
+
+---
+
+## 🚀 Installation & Setup
 
 ### Prerequisites
-- This agent expects a directory containing logical fallacy definitions in Markdown format (e.g., `Logical_Fallacies_Vault/`).
+1. A supported CLI agent (e.g., Gemini CLI, Claude Code).
 
 ### Configuration
-The agent automatically scans for a `Logical_Fallacies_Vault` directory in the current working directory. You can override the path if necessary.
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/VasileiosMalt/logical-fallacy-detector-agent-skill
+   ```
+2. **Link the Skill:** Add this repository directory to your agent's skill path.
+3. **Automatic Integration:** The skill includes a pre-bundled `Logical_Fallacies_Vault/` directory. Once the skill is activated, your agent will automatically index these Markdown files as its primary knowledge base for fallacy analysis. No further configuration is required.
 
-### Usage
-Analyze an argument:
-```
-Analyze this for logical fallacies: "You can't trust climate scientists because they get government funding."
-```
+---
 
-Analyze with a report format:
-```
---format markdown
-Review this essay for logical fallacies and produce a full report.
-```
+## 📖 How to Call the Skill
 
-## How It Works
+Once activated in your agent, interact naturally:
 
-1. **Vault Scan:** Locates and loads fallacy definitions from your Obsidian vault or the built-in catalog.
-2. **Argument Reconstruction:** Identifies premises, implicit assumptions, and intended conclusions.
-3. **Analysis:** Compares the reconstructed argument against the loaded fallacy base.
-4. **Charitable Interpretation:** Attempts to "steelman" the argument before flagging it.
-5. **Reporting:** Outputs findings with confidence scores, verbatim passages, and repair suggestions.
+**Analyze a quick snippet:**
+> *"Analyze this: [Insert Argument]"*
 
-## Contributing
+**Run a full report:**
+> *"--format markdown Review this essay for logical fallacies and produce a full report."*
 
-This agent is designed to be easily extensible. To add new fallacy definitions, simply create a new Markdown file in the `Logical_Fallacies_Vault/` directory.
+**Batch process debate transcripts:**
+> *"Analyze the following debate transcript for fallacies by speaker: [Transcript]"*
 
-## License
+---
 
-MIT
+## 🛠️ Built for augmented precision
+
+- **Confidence Thresholds:** Adjustable precision levels (default 0.5).
+- **Steelman Test:** Mandatory "Is there a non-fallacious version of this?" check.
+- **Neutrality:** Politically agnostic, clinical analysis style.
+
+---
+
+## ⚖️ Licensing & Commercial Policy
+
+**License:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+
+*“Logic is the beginning of wisdom, not the end.”*
