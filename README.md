@@ -96,11 +96,11 @@ This design minimizes false positives and ensures the tool supports critical thi
 
 ## 🗂️ Repository Structure
 
-logical-fallacy-detector-agent-skill/
+```logical-fallacy-detector-agent-skill/
 ├── Logical_Fallacies_Vault/ # Curated Markdown definitions of fallacies
 ├── skill.md # Agent skill instruction file
 └── README.md
-
+```
 ---
 
 ## 🛠️ Built for augmented precision
