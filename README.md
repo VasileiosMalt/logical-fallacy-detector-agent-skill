@@ -122,8 +122,10 @@ Contributions are welcome! To add new fallacy definitions, simply add a `.md` fi
 
 ---
 
-## ⚖️ Licensing & Commercial Policy
+## ⚖️ Licensing
 
 **License:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+
+---
 
 *“Logic is the beginning of wisdom, not the end.”*
