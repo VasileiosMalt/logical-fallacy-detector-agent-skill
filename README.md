@@ -1,7 +1,7 @@
 # Logical Fallacy Detector Agent Skill
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VasileiosMalt/logical-fallacy-detector-agent-skill/refs/heads/main/LF_skill_image.png" width="600"/>
+  <img src="https://raw.githubusercontent.com/VasileiosMalt/logical-fallacy-detector-agent-skill/refs/heads/main/LF_skill_image.png" width="300"/>
 </p>
 
 > *Either the government passes the capital punishment law, or the country will fall into chaos!*
