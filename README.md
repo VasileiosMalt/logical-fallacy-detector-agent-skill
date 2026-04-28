@@ -1,4 +1,4 @@
-# Logical Fallacy Detector Agent Skill
+# <p align="center"> Logical Fallacy Detector Agent Skill </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/VasileiosMalt/logical-fallacy-detector-agent-skill/refs/heads/main/LF_skill_image.png" width="300"/>
