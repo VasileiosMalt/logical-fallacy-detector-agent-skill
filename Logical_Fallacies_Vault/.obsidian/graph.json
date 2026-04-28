@@ -1,0 +1,71 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:FormalFallacy",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "tag:InformalFallacy",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:PropositionalFallacy",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:SyllogisticFallacy",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "tag:QuantificationFallacy",
+      "color": {
+        "a": 1,
+        "rgb": 6095078
+      }
+    },
+    {
+      "query": "tag:ModalFallacy",
+      "color": {
+        "a": 1,
+        "rgb": 10027212
+      }
+    },
+    {
+      "query": "tag:ProbabilisticFallacy",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0.5,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.4,
+  "repelStrength": 12,
+  "linkStrength": 1,
+  "linkDistance": 200,
+  "scale": 0.8
+}
