@@ -59,5 +59,4 @@ Errors in reasoning about probability, statistics, and chance.
 
 ---
 
-*Generated: 2026-04-27*
 *Total fallacies: 311*
